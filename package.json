@@ -1,0 +1,23 @@
+{
+	"name": "porfolio-8",
+	"version": "1.0.0",
+	"description": "my personal website\r Design ideas:\r 1 - change banner and move picture next to it\r 2 - change images on welcome and contact tab.\r 3 - Welcome page contain sandia mountains? transparency maybe?",
+	"main": "index.js",
+	"scripts": {
+		"deploy": "gh-pages -d dist"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/justinFrameDev/justinframedev.github.io.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/justinFrameDev/justinframedev.github.io/issues"
+	},
+	"homepage": "https://justinframedev.github.io/myportfolio",
+	"dependencies": {
+		"gh-pages": "^2.0.0"
+	}
+}
