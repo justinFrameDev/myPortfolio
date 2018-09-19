@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Justin Garcia</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Google reCAPTCHA -->
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
+
+</head>
+
+<body>
+    <!-- BANNER -->
+    <header>
+        <div class="jumbotron">
+            <div class="container">
+                <img src="../img/logo.png" alt="logo">
+            </div>
+        </div>
+    </header>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="tabs">
+                <div class="tab-list">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#tab-1" class="tab-control">
+                                    welcome
+                                </a></li>
+                            <li><a href="#tab-2" class="tab-control">
+                                    about me
+                                </a></li>
+                            <li><a href="#tab-3" class="tab-control">
+                                    work
+                                </a></li>
+                            <li><a href="#tab-4" class="tab-control">
+                                    contact me
+                                </a></li>
+                        </ul>
+
+                        <ul class="nav navbar-nav navbar-right ">
+                            <li class="social"><a href="https://www.linkedin.com/in/justin-garcia-41706516a/" target="_blank"><i
+                                        class="fab fa-linkedin"></i>
+                                    Linkedin</a></span>
+                                <li class="social"><a href="https://github.com/justinFrameDev" target="_blank"><i class="fab fa-github-square"></i>
+                                        Github</a></span>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+    </nav>
+
+
+    <div class="tab-panel active" id="tab-1">
+        <div class="container" id="content">
+            <div id="container">
+                <div class="grid">
+                    <img class="prof-img" src="img/me.jpg" alt="me">
+                    <div class="jumbotron">
+                        <h1>Welcome</h1>
+                        <p>My name is Justin Garcia am I am a self taught front end web developer based in Albuquerque, NM.
+                            Through online tutorials, books, and friends I have created this website to show what I can do.</p>
+                        <p>Through the generosity of online tutors, I have been able to pursue my passion in coding. Please
+                            feel free to look around, and if you would like to talk more, contact me through the contact
+                            form on the contact tab. Thank you.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div><!-- WELCOME -->
+
+    <div class="tab-panel" id="tab-2">
+        <div class="container" id="content">
+            <div id="container">
+                <div class="grid">
+                    <img src="img/about.png" alt="html,css,js">
+                    <div class="jumbotron">
+                        <h1>About Me</h1>
+                        <p>Throughout my studies I have become proficient in: HTML5, CSS3, Bootstrap, JS, and jQuery. I am
+                            hard at work at learning more libraires for JS sush as React.js and Vue.js, with the goal of
+                            learning PHP and SQL to becoming a full stack developer.</p>
+                        <div class="skills">
+                            <img src="img/bootstrap.png" alt="bootstrap">
+                            <img src="img/jquery.png" alt="jquery">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        </p>
+    </div><!-- ABOUT -->
+
+    <div class="tab-panel" id="tab-3">
+        <div class="container" id="content">
+            <div class="jumbotron">
+                <h1 class="text-center">Work</h1>
+                <p class="text-center">These are the projects I have worked on to demonstrate my previously listed skills,
+                    below you will find the project name and focused language, a brief description, and then links to either
+                    the code posted on my Github account or a demonstration of the project.</p>
+                <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img src="img/email.png" alt="email">
+                            <div class="caption">
+                                <h3>Responsive Email</h3>
+                                <p>
+                                    Lynda.com provided a tutorial for this template. I am comfortable sending responsive emails using tables across multiple
+                                    platforms.
+                                </p>
+                                <p>The biggest challenge from this project was the hard coding. Not having a seperate css
+                                    page made it hard to navigate the page which made finding errors difficult. Utlizing
+                                    a markup validator on validator.w3.org help identify missed details.</p>
+                                <p><a href="index-email.html" target="_blank" class="btn btn-primary" role="button">Demo</a>
+                                    <a href="https://github.com/justinFrameDev/html-email" target="_blank" class="btn btn-default" role="button">Code</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img src="..." alt="...">
+                            <div class="caption">
+                                <h3>E commerce with jQuery</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error blanditiis minus, dolore
+                                    a voluptas nihil. Dicta, dolores accusantium. Adipisci, molestiae molestias recusandae
+                                    assumenda delectus debitis eaque dolore a! Error, aut?</p>
+                                <p><a href="#" class="btn btn-primary" role="button">Demo</a> <a href="#" class="btn btn-default"
+                                        role="button">Code</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img src="..." alt="...">
+                            <div class="caption">
+                                <h3>Art Site</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi asperiores molestiae
+                                    omnis ipsa debitis sit rerum, cum, doloribus cupiditate veritatis, suscipit ad delectus
+                                    officiis reiciendis soluta iusto. Incidunt, saepe in.</p>
+                                <p><a href="#" class="btn btn-primary" role="button">Demo</a> <a href="#" class="btn btn-default"
+                                        role="button">Code</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <br>
+        </div>
+    </div><!-- WORK -->
+
+    <div class="tab-panel" id="tab-4">
+        <div class="container" id="content">
+            <div id="container">
+                <div class="grid">
+                    <img class="prof-img" src="img/me.jpg" alt="me">
+                    <div class="jumbotron">
+                        <h1>Contact Me</h1>
+                        <p>Let's Talk | Let's Learn | Let's Work</p>
+                        <form id="my-form" onsubmit="submitForm(); return false;">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <p><input class="form-control" id="n" placeholder="What's your name?" required></p>
+                                    <p><input class="form-control" id="e" placeholder="What's your email?" type="email" required></p>
+                                </div>
+                            </div>
+
+                            <textarea class="form-control" id="m" rows="5" placeholder="Send me a message..." required></textarea>
+                            <br>
+                            <div>
+                                <!-- <div class="g-recaptcha" data-sitekey="#"></div> -->
+                                <input id="mybtn" type="submit" class="btn btn-primary btn-lg" value="Send"><span id="status"></span>
+                            </div>
+                        </form>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <br>
+    </div><!-- Contact -->
+
+
+
+    <footer>
+        <div class="container">
+            <div class="grid text-center">
+                <a href="https://www.linkedin.com/in/justin-garcia-41706516a/" target="_blank"><i class="fab fa-linkedin"></i>
+                    Linkedin</a>
+                <a href="https://github.com/justinFrameDev" target="_blank"><i class="fab fa-github-square"></i> Github</a>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <h6 class="text-center" id="bottom"></h6>
+        </div>
+
+    </footer>
+
+    <script src="js/jquery-1.11.0.min.js"></script>
+
+    <script src="js/bootstrap.min.js "></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
